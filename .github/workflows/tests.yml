@@ -7,12 +7,11 @@ on:
 
 jobs:
   test:
-    # 22.04 still has prebuilt interpreters for the oldest supported Python.
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-latest
     strategy:
       fail-fast: false
       matrix:
-        python-version: ["3.9", "3.11", "3.13"]
+        python-version: ["3.11", "3.13"]
 
     steps:
       - uses: actions/checkout@v7

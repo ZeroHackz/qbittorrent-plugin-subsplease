@@ -182,6 +182,8 @@ The tests are offline: API responses come from `tests/fixtures/`, and `helpers` 
 python -m unittest discover -s tests -v
 ```
 
+CI runs the same suite on Python 3.11 and 3.13.
+
 To test against the live site, copy the plug-in into `nova3/engines` and use the `nova2.py` command from the installation section.
 
 ## Disclaimer
