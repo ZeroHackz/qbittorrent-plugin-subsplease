@@ -7,7 +7,8 @@ on:
 
 jobs:
   test:
-    runs-on: ubuntu-latest
+    # 22.04 still has prebuilt interpreters for the oldest supported Python.
+    runs-on: ubuntu-22.04
     strategy:
       fail-fast: false
       matrix:
