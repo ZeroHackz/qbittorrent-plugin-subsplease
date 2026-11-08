@@ -21,11 +21,13 @@ SubsPlease publishes every episode in 480p, 720p and 1080p. This plug-in reads t
 
 | Component | Version |
 | --- | --- |
-| qBittorrent | 4.4 or newer (verified on 5.2.0) |
+| qBittorrent | 5.0 or newer (verified on 5.2.0) |
 | Python | 3.9 or newer, as shipped or supported by qBittorrent |
 | Network | access to `subsplease.org` |
 
 qBittorrent runs search plug-ins with Python. Most installers bundle or locate a compatible interpreter; on Linux you may need the `python3` package.
+
+The plug-in only uses the standard search-plugin interface, so 4.x builds that ship Python 3.7 or newer should work as well, although they are not tested.
 
 ## Installation
 
