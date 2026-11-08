@@ -1,6 +1,7 @@
 # SubsPlease for qBittorrent
 
 [![tests](https://github.com/ZeroHackz/qbittorrent-plugin-subsplease/actions/workflows/tests.yml/badge.svg)](https://github.com/ZeroHackz/qbittorrent-plugin-subsplease/actions/workflows/tests.yml)
+[![release](https://img.shields.io/github/v/release/ZeroHackz/qbittorrent-plugin-subsplease)](https://github.com/ZeroHackz/qbittorrent-plugin-subsplease/releases/latest)
 
 A search plug-in for [qBittorrent](https://www.qbittorrent.org/) that adds [SubsPlease](https://subsplease.org/) as an anime search engine.
 
@@ -33,7 +34,7 @@ The plug-in only uses the standard search-plugin interface, so 4.x builds that s
 
 ### Option 1: qBittorrent (recommended)
 
-1. Download [`subsplease.py`](https://raw.githubusercontent.com/ZeroHackz/qbittorrent-plugin-subsplease/main/subsplease.py) (right click, then Save link as...).
+1. Download [`subsplease.py`](https://github.com/ZeroHackz/qbittorrent-plugin-subsplease/releases/latest/download/subsplease.py) from the latest release (right click, then Save link as...).
 2. In qBittorrent open **View > Search** (or the **Search** tab).
 3. Click **Search plugins...**.
 4. Click **Install a new one**, select the downloaded `subsplease.py`, and confirm.
